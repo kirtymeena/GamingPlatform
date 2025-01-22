@@ -1,7 +1,7 @@
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import "./styles/App.scss"
-import Gamecard from "./components/Gamecard";
+import GameCard from "./components/GameCard";
 import { games } from "./services/api";
 import Button from '@mui/material/Button';
 import { MdArrowForwardIos } from "react-icons/md";
@@ -28,11 +28,11 @@ function App() {
       </header>
       <main>
         <section className="section__gameCard">
-          <Gamecard variant="lg" game={mostWonGame} />
+          <GameCard variant="lg" game={mostWonGame} />
           <div className="game__container">
             {
               otherGames.map(game =>
-                <Gamecard key={game.id} variant="sm" game={game} />
+                <GameCard key={game.id} variant="sm" game={game} />
               )
             }
           </div>
