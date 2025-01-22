@@ -35,7 +35,7 @@ function BattleArena({ image, stakes, upcomingMatches, totalMatchesPlayed }) {
                 </div>
             </div>
             <div className="play__btn">
-                <Button fullWidth variant="contained" className="contained__btn">Play Now</Button>
+                <Button color="#cd7811" fullWidth variant="contained" className="contained__btn">View Matches</Button>
             </div>
 
         </div>
