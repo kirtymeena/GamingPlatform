@@ -1,0 +1,27 @@
+@use "./utils/variables" as *;
+
+.footer__items {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn {
+    cursor: pointer;
+    background: none;
+    color: $text-white;
+    border: none;
+    padding: 0.4rem;
+    transition: 0.2s ease-in-out background;
+    border-radius: 8px;
+
+    &:hover {
+        background-color: $orange-hover;
+    }
+}
+
+.btn.selected {
+    background-color: $orange;
+}

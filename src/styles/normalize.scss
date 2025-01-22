@@ -1,0 +1,17 @@
+@use "./utils/variables" as *;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #3b200b, #000000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: $text-white;
+    position: relative;
+}

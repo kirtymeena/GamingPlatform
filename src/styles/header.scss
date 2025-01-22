@@ -1,0 +1,76 @@
+@use "./utils/breakpoints" as *;
+@use "./utils/variables" as *;
+
+
+.navbar-sm {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__more {
+    cursor: pointer;
+}
+
+.navbar__left {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.navbar__username {
+    font-size: 0.9rem;
+}
+
+.navbar__avatar {
+    border: 3px solid $orange;
+    border-radius: 50%;
+    width: 2.8rem;
+    height: 2.8rem;
+
+    .avatar {
+        width: 2.5rem;
+        height: 2.5rem;
+        object-fit: cover;
+    }
+
+}
+
+.navbar-lg {
+    display: none;
+}
+
+.split-btn {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.coin {
+    width: 1rem;
+}
+
+// medium screens
+@include breakpoint(608px) {
+    .navbar-sm {
+        display: none;
+    }
+
+    .navbar-lg {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar__right {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem
+    }
+
+
+}
