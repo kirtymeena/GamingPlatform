@@ -60,6 +60,13 @@
     justify-content: center;
     margin: 0 auto;
     width: 332px;
+
+    .MuiButtonBase-root {
+        background-color: $orange !important;
+        color: $white;
+        text-transform: none;
+        font-size: 18px;
+    }
 }
 
 @include breakpoint(992px) {
