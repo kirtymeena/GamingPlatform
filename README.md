@@ -94,6 +94,7 @@ git  clone  https://github.com/kirtymeena/GamingPlatform.git
 ├── package.json
 ├── README.md
 └── vite.config.js
+```
 
 ## Screenshots
 ### Small screens
