@@ -37,7 +37,6 @@ function BattleArena({ image, stakes, upcomingMatches, totalMatchesPlayed }) {
             <div className="play__btn">
                 <Button color="#cd7811" fullWidth variant="contained" className="contained__btn">View Matches</Button>
             </div>
-
         </article>
     )
 }

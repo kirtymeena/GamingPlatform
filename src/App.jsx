@@ -20,7 +20,6 @@ function App() {
 
   const otherGames = gameList.filter(game => mostWonGame.id !== game.id)
 
-
   return (
     <div className="layout">
       <header>

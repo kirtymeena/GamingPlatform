@@ -16,6 +16,7 @@ function AddCoins() {
         <FaWallet />
         <img src={coins_won} alt="coin" className="coin" />
     </div>
+
     return (
         <ButtonGroup
             onClick={addCoins}
