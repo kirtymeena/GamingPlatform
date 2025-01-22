@@ -8,6 +8,10 @@ import { MdPlayArrow } from "react-icons/md";
 
 function Gamecard({ variant = "sm", game }) {
 
+    const handlePlayNow = () => {
+        alert("Game starting soon!")
+    }
+
     const liveUser = <div className="live__user">
         <p>{game.liveUsers.toLocaleString('en-US')}</p>
         {
@@ -24,7 +28,7 @@ function Gamecard({ variant = "sm", game }) {
             <div className={`card__body ${variant}`}>
                 <div className="card__coins">
                     <img src={coins_won} alt="coins-image" className={`coin__image-${variant}`} />
-                    <p className={`coins ${variant}`}>{game.coins.toLocaleString('en-US')}</p>
+                    <p className={`coins ${variant}`}>{game.weeklyWinning.toLocaleString('en-US')}</p>
                     {
                         variant === "lg" &&
                         <p className="coins__text">Won this week</p>
@@ -34,7 +38,7 @@ function Gamecard({ variant = "sm", game }) {
                     <Chip icon={<img src={user_live_icon} className={`user__live ${variant}`} />} label={liveUser} />
                     {
                         variant === "lg" &&
-                        <Button variant="contained" startIcon={<MdPlayArrow size={23} />} className="contained__btn">Play Now</Button>
+                        <Button variant="contained" startIcon={<MdPlayArrow size={23} />} className="contained__btn" onClick={handlePlayNow}>Play Now</Button>
 
                     }
                 </div>
