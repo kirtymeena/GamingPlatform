@@ -8,45 +8,45 @@ import dunk_shot from "../assets/dunk-shot.jpeg"
 export const games = [
     {
         id: 1,
-        coins: 400000,
+        weeklyWinning: 400000,
         liveUsers: 55000,
         image: guns_bottles,
 
     },
     {
         id: 2,
-        coins: 400000,
-        liveUsers: 55000,
+        weeklyWinning: 3000000,
+        liveUsers: 32000,
         image: monster_up
     },
     {
         id: 3,
-        coins: 400000,
-        liveUsers: 55000,
+        weeklyWinning: 275000,
+        liveUsers: 32000,
         image: knife_hit
     },
     {
         id: 4,
-        coins: 400000,
-        liveUsers: 55000,
+        weeklyWinning: 275000,
+        liveUsers: 32000,
         image: knife_hit
     },
     {
         id: 5,
-        coins: 400000,
-        liveUsers: 55000,
+        weeklyWinning: 275000,
+        liveUsers: 32000,
         image: run_panda_run
     },
     {
         id: 6,
-        coins: 400000,
-        liveUsers: 55000,
+        weeklyWinning: 275000,
+        liveUsers: 32000,
         image: fruit_ninja
     },
     {
         id: 7,
-        coins: 400000,
-        liveUsers: 55000,
+        weeklyWinning: 275000,
+        liveUsers: 32000,
         image: dunk_shot
     },
 ]
