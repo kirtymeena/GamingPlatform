@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 
 function BattleArena({ image, stakes, upcomingMatches, totalMatchesPlayed }) {
     return (
-        <div className='arena'>
+        <article className='arena'>
             <div className='arena__media'>
                 <img src={image} />
             </div>
@@ -38,7 +38,7 @@ function BattleArena({ image, stakes, upcomingMatches, totalMatchesPlayed }) {
                 <Button color="#cd7811" fullWidth variant="contained" className="contained__btn">View Matches</Button>
             </div>
 
-        </div>
+        </article>
     )
 }
 

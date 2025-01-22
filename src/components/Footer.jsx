@@ -45,7 +45,6 @@ function Footer() {
                     </button>
                 )
             }
-
         </div>
     )
 }
