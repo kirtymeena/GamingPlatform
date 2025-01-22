@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 import PropTypes from 'prop-types';
 import { MdPlayArrow } from "react-icons/md";
 
-function Gamecard({ variant = "sm", game }) {
+function GameCard({ variant = "sm", game }) {
 
     const handlePlayNow = () => {
         alert("Game starting soon!")
@@ -45,11 +45,11 @@ function Gamecard({ variant = "sm", game }) {
         </article>
     )
 }
-Gamecard.propTypes = {
+GameCard.propTypes = {
     variant: PropTypes.string,
     game: PropTypes.object,
 };
-Gamecard.defaultProps = {
+GameCard.defaultProps = {
     variant: "sm",
 };
-export default Gamecard
+export default GameCard
