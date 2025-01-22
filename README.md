@@ -95,5 +95,17 @@ git  clone  https://github.com/kirtymeena/GamingPlatform.git
 ├── README.md
 └── vite.config.js
 
+## Screenshots
+### Small screens
 
+![Screen Shot 2025-01-22 at 21 07 42](https://github.com/user-attachments/assets/e45b4f81-a633-40c7-bd74-f34d008e3e24)
 
+![Screen Shot 2025-01-22 at 21 08 09](https://github.com/user-attachments/assets/b2bd3bad-3399-48bd-942d-19fe9e93c7f6)
+
+### Medium to large screens
+
+![Screen Shot 2025-01-22 at 21 08 44](https://github.com/user-attachments/assets/3a02f564-12c8-4a16-ada3-e2eb534cd393)
+
+![Screen Shot 2025-01-22 at 21 09 10](https://github.com/user-attachments/assets/ac06c3c7-8dc2-4c97-978b-9724ccc0cae0)
+
+![Screen Shot 2025-01-22 at 21 09 35](https://github.com/user-attachments/assets/848e8881-3c1d-4007-96ca-c08fdc1a643c)
