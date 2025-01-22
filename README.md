@@ -53,4 +53,47 @@ git  clone  https://github.com/kirtymeena/GamingPlatform.git
 - Contains Home, Games, Notifications, and Profile.
 - On hover, the background color is changing and on click, the active option will have background in orange color. 
 
+### Folder Structure
+```
+├── public
+│   ├── favicon.ico
+│   └── index.html
+├── src
+│   ├── assets  // images
+│   │   
+    ├── components
+    │   ├── AddCoins.jsx
+    │   │  
+    │   ├── BattleArena.jsx
+    │   │   
+    │   ├── Footer.jsx
+    |   |
+    |   ├── Gamecard.jsx  
+    |   |
+    |   ├── Header.jsx
+    |
+    |__ styles /// styles for components
+    |   |
+    |   ├── utils   
+    |   |   |
+    |   |   ├── _breakpoints.scss // breakpoints mixin
+    |   |   |
+    |   |   ├── _variables.scss // variables
+    |   |   
+    |   ├── App.scss
+    |   ├── battleArena.scss
+    |   ├── footer.scss
+    |   ├── gamecard.scss
+    |   ├── header.scss
+    |   └── normalize.scss
+    |   
+    ├──App.jsx // main component
+    ├── main.jsx // main file
+|
+├── .gitignore // Ignores node_modules 
+├── package.json
+├── README.md
+└── vite.config.js
+
+
 
