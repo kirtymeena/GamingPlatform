@@ -39,11 +39,10 @@ function Gamecard({ variant = "sm", game }) {
                     {
                         variant === "lg" &&
                         <Button variant="contained" startIcon={<MdPlayArrow size={23} />} className="contained__btn" onClick={handlePlayNow}>Play Now</Button>
-
                     }
                 </div>
             </div>
-        </article >
+        </article>
     )
 }
 Gamecard.propTypes = {
