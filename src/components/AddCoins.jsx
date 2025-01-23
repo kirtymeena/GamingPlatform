@@ -19,7 +19,6 @@ function AddCoins() {
 
     return (
         <ButtonGroup
-            onClick={addCoins}
             variant="contained"
             sx={{
                 borderRadius: "12px",
@@ -37,6 +36,7 @@ function AddCoins() {
             <Button
                 color="#019E5D"
                 size="small"
+                onClick={addCoins}
             >
                 <MdAdd size={24} />
             </Button>
