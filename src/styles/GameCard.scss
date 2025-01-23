@@ -128,4 +128,10 @@
     .coins {
         font-size: 14px;
     }
+
+    .card__media {
+        img {
+            object-fit: fill;
+        }
+    }
 }
