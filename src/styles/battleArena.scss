@@ -58,7 +58,7 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 332px;
+    width: 100%;
 
     .MuiButtonBase-root {
         background-color: $orange !important;
@@ -79,5 +79,9 @@
 
     .arena__text {
         font-size: 16px;
+    }
+
+    .play__btn {
+        width: 30%;
     }
 }
