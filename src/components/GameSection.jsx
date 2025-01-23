@@ -4,6 +4,7 @@ import Button from '@mui/material/Button';
 import BattleArena from "./BattleArena";
 import battle_arena from "../assets/battle-arena.jpeg"
 import PropTypes from 'prop-types'
+import "../styles/gameSection.scss"
 
 function GameSection({ mostWonGame, otherGames, battleArenaList }) {
   return (

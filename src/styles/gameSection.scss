@@ -1,0 +1,31 @@
+@use "./utils/breakpoints" as *;
+
+.section__gameCard {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.game__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.arena__header {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 0.5rem
+}
+
+.MuiButtonBase-root {
+    text-transform: none;
+}
+
+@include breakpoint(608px) {
+    .game__container {
+        gap: 0.7rem;
+    }
+}
