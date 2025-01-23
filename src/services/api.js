@@ -8,6 +8,7 @@ import dunk_shot from "../assets/dunk-shot.jpeg"
 export const games = [
     {
         id: 1,
+        title: "Guns & Bottles",
         weeklyWinning: 4000000,
         liveUsers: 55000,
         image: guns_bottles,
@@ -15,36 +16,42 @@ export const games = [
     },
     {
         id: 2,
+        title: "Monsters Up",
         weeklyWinning: 30000,
         liveUsers: 32000,
         image: monster_up
     },
     {
         id: 3,
+        title: "Knife Hit",
         weeklyWinning: 275000,
         liveUsers: 32000,
         image: knife_hit
     },
     {
         id: 4,
+        title: "Knife Hit",
         weeklyWinning: 275000,
         liveUsers: 32000,
         image: knife_hit
     },
     {
         id: 5,
+        title: "Run Panda Run",
         weeklyWinning: 275000,
         liveUsers: 32000,
         image: run_panda_run
     },
     {
         id: 6,
+        title: "Fruit Ninja",
         weeklyWinning: 275000,
         liveUsers: 32000,
         image: fruit_ninja
     },
     {
         id: 7,
+        title: "Dunk Shot",
         weeklyWinning: 275000,
         liveUsers: 32000,
         image: dunk_shot
