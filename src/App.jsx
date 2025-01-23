@@ -11,11 +11,10 @@ import { battleArenaList } from "./services/api";
 import { useState, useMemo } from "react";
 
 function App() {
-
   const [gameList] = useState(games)
 
   const mostWonGame = useMemo(() => gameList.reduce((maxGame, currentGame) => {
-    return currentGame.coins > maxGame.coins ? currentGame : maxGame
+    return currentGame.weeklyWinning > maxGame.weeklyWinning ? currentGame : maxGame
   }, games[0]), [gameList])
 
   const otherGames = gameList.filter(game => mostWonGame.id !== game.id)

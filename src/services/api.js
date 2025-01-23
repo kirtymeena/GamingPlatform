@@ -8,14 +8,14 @@ import dunk_shot from "../assets/dunk-shot.jpeg"
 export const games = [
     {
         id: 1,
-        weeklyWinning: 400000,
+        weeklyWinning: 4000000,
         liveUsers: 55000,
         image: guns_bottles,
 
     },
     {
         id: 2,
-        weeklyWinning: 3000000,
+        weeklyWinning: 30000,
         liveUsers: 32000,
         image: monster_up
     },
