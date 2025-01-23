@@ -20,24 +20,6 @@
     align-items: center;
 }
 
-.navbar__username {
-    font-size: 0.9rem;
-}
-
-.navbar__avatar {
-    border: 3px solid $orange;
-    border-radius: 50%;
-    width: 2.8rem;
-    height: 2.8rem;
-
-    .avatar {
-        width: 2.5rem;
-        height: 2.5rem;
-        object-fit: cover;
-    }
-
-}
-
 .navbar-lg {
     display: none;
 }
@@ -71,6 +53,4 @@
         align-items: center;
         gap: 0.5rem
     }
-
-
 }

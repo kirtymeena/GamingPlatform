@@ -1,8 +1,8 @@
 import { MdMenu } from "react-icons/md";
-import Avatar from "../assets/Avatar.png"
 import "../styles/header.scss"
 import Footer from "./Footer";
 import AddCoins from "./AddCoins";
+import UserProfile from "./userProfile";
 
 function Header() {
     return (
@@ -12,12 +12,7 @@ function Header() {
                     <div className="navbar__more">
                         <MdMenu size={24} />
                     </div>
-                    <div className="navbar__avatar">
-                        <img src={Avatar} alt="avatar" className="avatar" />
-                    </div>
-                    <div className="navbar__username">
-                        <p>MOB99100N</p>
-                    </div>
+                    <UserProfile />
                 </div>
                 <div className="navbar__right">
                     <AddCoins />
@@ -31,12 +26,10 @@ function Header() {
                     </div>
                 </div>
                 <div className="navbar__right">
-                    <div className="navbar__avatar" title="MOB99100N">
-                        <img src={Avatar} alt="avatar" className="avatar" />
-                    </div>
                     <div className="navbar__right">
                         <AddCoins />
                     </div>
+                    <UserProfile />
                 </div>
             </div>
         </nav>
